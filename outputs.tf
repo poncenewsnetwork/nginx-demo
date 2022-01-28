@@ -1,3 +1,3 @@
 output "ip_address" {
-  value = google_compute_global_address.nginx.address
+  value = google_compute_address.nginx.address
 }
