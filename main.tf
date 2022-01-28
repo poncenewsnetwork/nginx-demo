@@ -21,7 +21,7 @@ resource "google_compute_instance" "nginx" {
   network_interface {
     network = "default"
     access_config {
-      nat_ip = google_compute_address.static.address
+      nat_ip = google_compute_address.nginx.address
     }
   }
 
