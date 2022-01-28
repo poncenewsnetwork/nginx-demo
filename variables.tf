@@ -1,5 +1,5 @@
 variable "gallery_info" {
-    type = object({
-        env_name = string
-    })
+  type = object({
+    env_name = string
+  })
 }
