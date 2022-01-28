@@ -1,5 +1,5 @@
-resource "google_compute_address" "nginx" {
-  name = "ipv4-address"
+resource "google_compute_global_address" "nginx" {
+  name = "nginx"
 }
 
 data "google_compute_image" "debian_image" {
